@@ -1,5 +1,5 @@
 import React from 'react'
-import Service from './Service'
+/*import Service from './Service'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Layout from './Pages/Layout'
 import About from './Pages/About'
@@ -8,10 +8,13 @@ import Contact from './Pages/Contact'
 import Counter from './Counter'
 import Usestate from './Usestate'
 import Reducer from './Reducer'
-import Callback from './Callback'
+import Callback from './Callback'*/
+import Ref from './Ref'
+import CounterComponent from './CounterComponent'
+import Memo from './Memo'
 export default function App() {
   return (
-      <BrowserRouter>
+     /* <BrowserRouter>
       <Routes>
         <Route path="/"element={<Layout/>}>
         <Route index element={<Home/>}/>
@@ -21,6 +24,11 @@ export default function App() {
         <Route path="Counter"element={<Counter/>}/>
         </Route>
       </Routes>
-      </BrowserRouter>
+      </BrowserRouter>*/
+      <>
+      <Ref/>
+      <CounterComponent/>
+      <Memo/>
+      </>
   )
   }
